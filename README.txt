@@ -1,40 +1,28 @@
-5-ALARM HEADLIGHT RESTORATION — NETLIFY DROP PACKAGE
+5-ALARM HEADLIGHT RESTORATION — CLEAN NETLIFY REBUILD
 
-DEPLOY
-1. Unzip this file on your computer.
-2. Go to https://app.netlify.com/drop
-3. Drag the entire unzipped folder—not the ZIP file—onto the Netlify Drop page.
-4. Netlify will create a temporary .netlify.app address.
-5. In Netlify, open Domain management and add:
-   5alarmheadlightrestoration.com
-6. Follow Netlify's DNS instructions for GoDaddy.
+WHAT IS DIFFERENT
+- The logo and favicon are embedded directly in the HTML, so they cannot break because of an image path.
+- The image files are also included in /assets for social sharing and future use.
+- All CSS, JavaScript and page links use reliable relative paths.
+- Netlify Forms support is included.
+- Mobile navigation, click-to-call, click-to-text, SEO metadata and LocalBusiness schema are included.
 
-QUOTE FORM
-This site uses Netlify Forms.
-After deployment, submit one test quote.
-In Netlify, open Forms to verify the submission.
-Configure form notification emails so quote requests go to:
+UPLOAD TO GITHUB
+1. Unzip this package.
+2. Open the 5-alarm-headlight-restoration repository on GitHub.
+3. Choose Add file > Upload files.
+4. Drag ALL files and the assets folder from this package onto GitHub.
+5. Choose “Commit directly to the main branch.”
+6. Click Commit changes.
+7. Netlify will deploy automatically.
+
+IMPORTANT
+- Allow GitHub to replace index.html, styles.css, script.js, netlify.toml and thank-you.html.
+- Keep your GoDaddy DNS records exactly as they are.
+- Do not delete your Microsoft 365 email records.
+- After Netlify publishes the new commit, refresh the website with Command + Shift + R.
+
+FORM
+After deployment, submit one test quote. In Netlify, open Forms to verify it arrived.
+Configure form notifications to:
 info@5alarmheadlightrestoration.com
-
-BUSINESS INFORMATION INCLUDED
-Phone: 469-826-0859
-Email: info@5alarmheadlightrestoration.com
-Owner: Phillip Swink
-Service area wording: North Texas
-
-BEFORE LAUNCH
-- Replace the illustrative before/after panels with real completed-job photographs.
-- Confirm the exact cities served.
-- Add pricing only after the business decides whether pricing will be public.
-- Add warranty wording only after the exact policy is finalized.
-- Do not add customer testimonials until they are genuine.
-
-FILES
-index.html       Main website
-thank-you.html   Confirmation page after a quote submission
-styles.css       Responsive design
-script.js        Mobile navigation
-netlify.toml     Netlify hosting configuration
-robots.txt       Search engine guidance
-sitemap.xml      Search engine sitemap
-assets/          Logo, favicon and social sharing image
